@@ -1,8 +1,10 @@
 import React from 'react'
 import './home.scss';
 import {ProjectsButton} from '../../components';
+import WarpLines from '../../threeJSTest/warp_lines';
 
 const Home = () => {
+  // WarpLines();
   
   return (
     <div className='home-container'>

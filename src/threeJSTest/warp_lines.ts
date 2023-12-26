@@ -39,7 +39,7 @@ function WarpLines() {
       pa[i * 6 + 5] = zz;
       
 
-      va[i * 2] = va[i * 2] = 1;
+      va[i * 2] = va[i * 2] = 0;
     }
 
     let mat = new THREE.LineBasicMaterial({color: 0xffffff});
