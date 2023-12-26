@@ -1,0 +1,35 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    flex-direction: column;
+    min-height: 100vh;
+    width: inherit;
+   
+}
+
+.home-container__About {
+    margin-top: 2vh;
+    width: 70vw;
+    height: 70vh;
+    background-color: #0F0D0D;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    // align-items: center; 
+    box-shadow: #504747 0px 0px 10px 0px;
+
+}
+
+.home-container__Contact {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    // align-items: center; 
+}
+
+/* Add this if necessary */
+/* .home-container {
+    position: relative;
+} */
