@@ -9,9 +9,6 @@ const Home = () => {
         <div className='home-container__About'>
             Home
         </div>
-        <div className='home-container__Contact'>
-            <Navbar ></Navbar>
-          </div>
     </div>
   )
 }
