@@ -1,13 +1,20 @@
 import React from 'react'
 import './home.scss';
-import { Navbar } from '../../components';
+import {ProjectsButton} from '../../components';
 
 const Home = () => {
   
   return (
     <div className='home-container'>
         <div className='home-container__About'>
-            Home
+        <div style={{margin:'20px'}}></div>
+          <ProjectsButton></ProjectsButton>
+          <div style={{margin:'10px'}}></div>
+          <ProjectsButton></ProjectsButton>
+          <div style={{margin:'10px'}}></div>
+          <ProjectsButton></ProjectsButton>
+          <div style={{margin:'20px'}}></div>
+            
         </div>
     </div>
   )

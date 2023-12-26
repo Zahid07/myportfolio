@@ -1,0 +1,61 @@
+.project_button_container{
+    height : 50vh;
+    width: 90vw;
+    
+    background-color: rgb(192, 171, 171);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px #504747;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+
+    // &:hover {
+    //     transform: scale(1.1); /* Increase the scale on hover */
+    // }
+    &:hover {
+        transform: scale(1.1); /* Increase the scale on hover */
+        animation: pulsate 1.5s infinite alternate; /* Apply the pulsating animation with the "alternate" direction */
+        cursor: pointer;
+    }
+
+    @keyframes pulsate {
+        0%, 100% {
+            background-color: rgb(192, 171, 171);
+        }
+        50% {
+            background-color: rgba(165, 52, 52, 0.8); /* Adjust the alpha value for pulsating effect */
+        }
+    }
+}
+
+.project_button_image_container{
+    // position: absolute;
+    color: red;
+    z-index: 11;
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #504747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    border: 2px solid red;
+    background-color: rgb(192, 171, 171);
+}
+
+.project_button_image_text{
+    margin: auto;
+    border: 2px solid red;
+    width: 70%;
+    height: 15%;
+    box-shadow: 5px 5px 5px 5px #504747;
+    border-radius: 10px;
+    background-color: rgb(192, 171, 171);
+}

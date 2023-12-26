@@ -1,7 +1,7 @@
 .home-container {
     display: flex;
     justify-content: center;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
     flex-direction: column;
     min-height: 100vh;
     width: inherit;
@@ -9,15 +9,15 @@
 }
 
 .home-container__About {
-    width: 70vw;
+    width: 65vw;
     height: 70vh;
-    background-color: #0F0D0D;
+    background-color: #6b5f5f;
     border-radius: 10px;
-    opacity: 0.5;
     display: flex;
     justify-content: center;
     box-shadow: #504747 0px 0px 10px 0px;
-    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
 
 }
 
