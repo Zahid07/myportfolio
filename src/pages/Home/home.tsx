@@ -9,9 +9,7 @@ const Home = () => {
       <ProfilePic></ProfilePic>
       <div className='home-container__buttons'>
         <ProjectsButton></ProjectsButton>
-        <div style={{marginRight:'60px'}} ></div>
         <ProjectsButton></ProjectsButton>
-        <div style={{marginRight:'60px'}} ></div>
         <ProjectsButton></ProjectsButton>
       </div>
       
