@@ -1,12 +1,13 @@
 import React from 'react'
 import './ProjectsButton.scss';
 import small_gear from  "../../assets/small-gear.svg"
+import project_laptop from "../../assets/project-laptop.svg"
 
 const ProjectsButton = () => {
   return (
     <div className='project_button_container'>
       <div className='project_button_container--Picture' >
-        <img src={small_gear}  alt='ERROR'/>
+        <img src={project_laptop}  alt='ERROR'/>
       </div>
 
       <div className='project_bottom_container'>
