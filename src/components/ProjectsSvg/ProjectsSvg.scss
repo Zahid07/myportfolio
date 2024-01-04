@@ -1,0 +1,90 @@
+.ProjectsSvg_container {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+  }
+  
+  .project_laptop {
+    width: fit-content;
+    height: fit-content;
+    order: 2;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+  }
+
+  .laptop_hovered {
+    width: fit-content;
+    height: fit-content;
+    order: 2;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+    display: none;
+  }
+  
+  .speech_bubble {
+    width: fit-content;
+    height: fit-content;
+    order: 1;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 0; 
+    left: 34%; 
+    margin-left: 12px; 
+    margin-top: -50px;
+  }
+  
+  .all_gears {
+    margin-left: 18px;
+    width: 45%;
+    height: 43%;
+    order: 0;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    .gear_1 {
+        margin-top: 15px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 26px;
+      margin-left: 5px;
+    }
+    .gear_2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 16px;
+        margin-left: 10px;
+      }
+
+      .gear_3 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 13px;
+        margin-right: 3px;
+        
+      }
+  
+    .gear_4 {
+        
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+  
+    
+  
+    
+  }

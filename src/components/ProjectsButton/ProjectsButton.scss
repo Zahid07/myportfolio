@@ -1,6 +1,6 @@
 .project_button_container {
-    height: 264px;
-    width: 429px;
+    height: 300px;
+    width: 500px;
     background-color: #FFFFFF; 
     border-radius: 10px;
     z-index: 10;
@@ -13,27 +13,45 @@
     color: #393636;
     
     &:hover {
-        transform: scale(1.1) translateY(-20px); 
-        animation: pulsate 1.5s infinite ; 
+        transform: scale(1.1) translateY(-20px);
+        // animation: pulsate 1.5s infinite;
+        background-color: #FF6A00;
         cursor: pointer;
         color: #ffffff;
+      
+        .laptop_hovered {
+          display: flex;
+          transition: opacity 0.5s ease-in-out; 
+          opacity: 1; 
+          transform: scale(1.1);
+          transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
+          transition-delay: 0.3s;
 
-        img{
-            transition: transform 0.3s ease-in-out;
-            transform: rotate(inf);
-            animation: rotateInfinitely 5s linear infinite;
         }
-    
+      
+        .project_laptop {
+          display: none;
+          transition: opacity 0.5s ease-in-out; 
+        }
+      
+        img.gear_1,
+        img.gear_2,
+        img.gear_3,
+        img.gear_4 {
+          transition: transform 0.3s ease-in-out;
+          transform: rotate(inf);
+          animation: rotateInfinitely 5s linear infinite;
+        }
+      
         @keyframes rotateInfinitely {
-            0% {
-              transform: rotate(0deg);
-            }
-            100% {
-              transform: rotate(360deg);
-            }
+          0% {
+            transform: rotate(0deg);
           }
-          
-    }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      }
     
     @keyframes pulsate {
         0%, 100% {
@@ -64,25 +82,8 @@
 .project_button_container--Picture{
     color: red;
     width: inherit;
-    border: 2px red solid;
-    height: 80%;
-
-    // &:hover{
-    //     img{
-    //         transition: transform 0.3s ease-in-out;
-    //         transform: rotate(inf);
-    //         animation: rotateInfinitely 5s linear infinite;
-    //     }
-    
-    //     @keyframes rotateInfinitely {
-    //         0% {
-    //           transform: rotate(0deg);
-    //         }
-    //         100% {
-    //           transform: rotate(360deg);
-    //         }
-    //       }
-    // }
+    // border: 2px red solid;
+    height: 90%;
    
 }
 
