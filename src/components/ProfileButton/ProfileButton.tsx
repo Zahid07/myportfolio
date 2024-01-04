@@ -15,7 +15,7 @@ const ProfileButton = () => {
             </div>
             <div className='project_button_container--Projects'>
             {Array.from({ length: 5 }, (_, index) => (
-              <div key={index} className='circle'></div>
+              <div key={index} className='profile_circle'></div>
             ))}
             </div>
 

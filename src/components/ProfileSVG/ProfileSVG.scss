@@ -3,5 +3,13 @@
     height: inherit;
     display: flex;
     position: relative;
-    border: 2px red solid;
+    // border: 2px red solid;
   }
+
+
+.floor_SVG{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 80px;
+}

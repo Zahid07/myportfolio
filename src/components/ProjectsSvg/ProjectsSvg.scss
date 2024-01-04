@@ -42,13 +42,14 @@
   
   .all_gears {
     margin-left: 18px;
-    width: 45%;
-    height: 43%;
+    width: 52%;
+    height: 50%;
     order: 0;
     z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
+    border: 2px red solid;
   
     .gear_1 {
         margin-top: 15px;

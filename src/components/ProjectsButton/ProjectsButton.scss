@@ -1,6 +1,6 @@
 .project_button_container {
-    height: 300px;
-    width: 500px;
+    height: 264px;
+    width: 429px;
     background-color: #FFFFFF; 
     border-radius: 10px;
     z-index: 10;
@@ -20,11 +20,10 @@
       
         .laptop_hovered {
           display: flex;
-          transition: opacity 0.5s ease-in-out; 
           opacity: 1; 
           transform: scale(1.1);
           transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
-          transition-delay: 0.3s;
+          transition-delay: 2s;
 
         }
       
@@ -74,6 +73,7 @@
     font-weight: 500;
     margin-left: 20px;
     transition: transform 0.3s ease-in-out; 
+    margin-bottom: 5px;
     
 }
 
@@ -93,6 +93,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-right: 5%;
+    
 
 }
 
@@ -109,6 +110,7 @@
     border-radius: 50%;
     background-color: #FFFFFF; /* Circle color */
     align-items: center;
+    margin-bottom: 10px;
 
     &:hover {
         transform: scale(1.1); 

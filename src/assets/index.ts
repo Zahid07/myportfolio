@@ -7,5 +7,6 @@ import gear_3 from './ProjectsButtonAssets/gear_3.svg';
 import gear_4 from './ProjectsButtonAssets/gear_4.svg';
 import laptop_hovered from './ProjectsButtonAssets/laptop_hovered.svg';
 
-export {project_laptop, small_gear, speech_bubble, gear_1, gear_2, gear_3, gear_4, laptop_hovered};
+import floor from './ProfileButtonAssets/Floor.svg';
+export {project_laptop, small_gear, speech_bubble, gear_1, gear_2, gear_3, gear_4, laptop_hovered, floor};
 

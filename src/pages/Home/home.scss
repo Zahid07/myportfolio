@@ -1,12 +1,20 @@
+.outside-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+}
+
 .home-container {
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
-    min-height: 100vh;
-    width: inherit;
-    height: inherit;
+    width: 80vw;
+    height: 85vh;
     background-color: #0E1012;
+    border-radius: 10px;
    
 }
 

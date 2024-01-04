@@ -5,6 +5,7 @@ import {ProfilePic, ProjectsButton, ProfileButton} from '../../components';
 const Home = () => {
   
   return (
+    <div className='outside-Container'>
     <div className='home-container'>
       <ProfilePic></ProfilePic>
       <div className='home-container__buttons'>
@@ -13,6 +14,7 @@ const Home = () => {
         <ProjectsButton></ProjectsButton>
       </div>
       
+    </div>
     </div>
   )
 }
