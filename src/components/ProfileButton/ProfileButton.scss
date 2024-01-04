@@ -1,4 +1,4 @@
-.project_button_container {
+.profile_button_container {
     height: 300px;
     width: 500px;
     background-color: #FFFFFF; 
@@ -14,7 +14,7 @@
     
     &:hover {
         transform: scale(1.1) translateY(-20px);
-        background-color: #FF6A00;
+        background-color: #EE0979;
         cursor: pointer;
         color: #ffffff;
       
@@ -105,10 +105,11 @@
 .circle {
     margin-left: 10px;
     width: 10%;
-    height: 70%;
+    height: 90%;
     border-radius: 50%;
     background-color: #FFFFFF; /* Circle color */
     align-items: center;
+    margin-bottom:20px ;
 
     &:hover {
         transform: scale(1.1); 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.scss';
-import {ProfilePic, ProjectsButton} from '../../components';
+import {ProfilePic, ProjectsButton, ProfileButton} from '../../components';
 
 const Home = () => {
   
@@ -9,7 +9,7 @@ const Home = () => {
       <ProfilePic></ProfilePic>
       <div className='home-container__buttons'>
         <ProjectsButton></ProjectsButton>
-        <ProjectsButton></ProjectsButton>
+        <ProfileButton></ProfileButton>
         <ProjectsButton></ProjectsButton>
       </div>
       
