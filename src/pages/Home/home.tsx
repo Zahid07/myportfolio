@@ -1,17 +1,18 @@
 import React from 'react'
 import './home.scss';
-import { Navbar } from '../../components';
+import {ProfilePic, ProjectsButton} from '../../components';
 
 const Home = () => {
   
   return (
     <div className='home-container'>
-        <div className='home-container__About'>
-            Home
-        </div>
-        <div className='home-container__Contact'>
-            <Navbar ></Navbar>
-          </div>
+      <ProfilePic></ProfilePic>
+      <div className='home-container__buttons'>
+        <ProjectsButton></ProjectsButton>
+        <ProjectsButton></ProjectsButton>
+        <ProjectsButton></ProjectsButton>
+      </div>
+      
     </div>
   )
 }

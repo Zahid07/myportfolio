@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { About, Contact, Home } from './pages';
 
 
+
 function App() {
+ 
 
   return (
     <div className='App' >
