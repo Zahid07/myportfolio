@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useMemo } from 'react'
 import './ProfilePic.scss'
 import {profile_pic} from '../../assets'
 
@@ -6,7 +6,11 @@ const ProfilePic = () => {
 
     
 
-    const professions = ['Front-End Developer', 'Back-End Developer', 'Full-Stack Developer']
+  const professions = useMemo(() => [
+    'Front-End Developer',
+    'Back-End Developer',
+    'Full-Stack Developer'
+  ], []);
 
     const [currentProfession, setCurrentProfession] = useState(0);
     const [stopRotation, setStopRotation] = useState(false);
@@ -44,12 +48,24 @@ const ProfilePic = () => {
         <h1>Muhammad Zahid</h1>
       </div>
 
-      <div className='profession-container'>
-      <h1 className={`${stopRotation ? 'stop-animations' : ''}`}>
-        {stopRotation && <span>Here</span>}
-        {!stopRotation && <span>{professions[currentProfession]}</span>}
-      </h1>
-      </div>
+      {
+        stopRotation ? 
+        <div className='profession-container-no-rotate'>
+          <h1>Full-Stack Developer</h1>
+        </div>
+        : null
+      }
+
+      {
+        !stopRotation ?
+        <div className='profession-container'>
+          <h1><span>{professions[currentProfession]}</span></h1>
+        </div>:
+      null
+        
+      }
+
+      
 
     </div>
   )
