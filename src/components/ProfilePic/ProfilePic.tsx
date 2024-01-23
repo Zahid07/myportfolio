@@ -51,7 +51,6 @@ const ProfilePic = () => {
       </h1>
       </div>
 
-      ProfilePic
     </div>
   )
 }
