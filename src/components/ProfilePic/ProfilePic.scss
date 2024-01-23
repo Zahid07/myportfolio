@@ -1,5 +1,126 @@
 .profile-container{
-    // border: 2px red solid;
-    height: inherit;
-    width: inherit;
+    border: 2px red solid;
+    height: 140%;
+    width: 100%;
 }
+.image-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%; // Make the image round
+    }
+  }
+
+
+.intro-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(107, 105, 105);
+    }
+}
+
+.name-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.profession-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+}
+
+  .profile-container{
+    border: 2px red solid;
+    height: 140%;
+    width: 100%;
+}
+
+.profession-container {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Add overflow to hide overflow during transition */
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    opacity: 0; /* Start with opacity set to 0 */
+    animation: roll 3s linear infinite, pulsate 1s ease-in-out infinite; /* Adjust the durations based on your preference */
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+/* Keyframes for the rolling animation */
+@keyframes roll {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+/* Keyframes for the pulsating color effect */
+@keyframes pulsate {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+

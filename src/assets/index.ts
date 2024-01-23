@@ -24,6 +24,8 @@ import fence_unselected from './ContactsButtonAssets/fence_unselected.svg';
 import plane_unselected from './ContactsButtonAssets/plane_unselected.svg';
 import fence_selected from './ContactsButtonAssets/fence_selected.svg';
 import plane_selected from './ContactsButtonAssets/plane_selected.svg';
+
+import profile_pic from './ProfileAssets/profile_pic.jpg';
 export {
     project_laptop, 
     small_gear, 
@@ -48,6 +50,7 @@ export {
     fence_unselected,
     plane_unselected,
     fence_selected,
-    plane_selected
+    plane_selected,
+    profile_pic
 };
 
