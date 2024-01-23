@@ -1,5 +1,5 @@
 import React from 'react'
-import {ProfileSVG} from '..';
+import {ProfileSVG} from '../../svgs';
 import './ProfileButton.scss';
 
 const ProfileButton = () => {

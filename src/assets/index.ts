@@ -19,6 +19,11 @@ import key_unselected from './ProfileButtonAssets/key_unselected.svg';
 import key_selected from './ProfileButtonAssets/key_selected.svg';
 import plants_unselected from './ProfileButtonAssets/plants_unselected.svg';
 import plants_selected   from './ProfileButtonAssets/plants_selected.svg';
+
+import fence_unselected from './ContactsButtonAssets/fence_unselected.svg';
+import plane_unselected from './ContactsButtonAssets/plane_unselected.svg';
+import fence_selected from './ContactsButtonAssets/fence_selected.svg';
+import plane_selected from './ContactsButtonAssets/plane_selected.svg';
 export {
     project_laptop, 
     small_gear, 
@@ -39,6 +44,10 @@ export {
     key_unselected,
     key_selected,
     plants_unselected,
-    plants_selected
+    plants_selected,
+    fence_unselected,
+    plane_unselected,
+    fence_selected,
+    plane_selected
 };
 

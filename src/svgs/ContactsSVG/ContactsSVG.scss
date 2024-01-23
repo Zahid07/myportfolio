@@ -1,0 +1,33 @@
+.ContactSvg_container {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    position: relative;
+  }
+
+  .fence_SVG{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    margin-left: 50px;
+    margin-bottom: 18px;
+
+    img[alt="fenceSelected"] {
+      display: none;
+    }
+  }
+
+  .plane_SVG{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    margin-left: 50px;
+    margin-bottom: 70px;
+
+    img[alt="planeSelected"] {
+      display: none;
+    }
+
+  }

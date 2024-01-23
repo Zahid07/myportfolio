@@ -1,13 +1,10 @@
 import React from 'react'
-import {ProjectsSvg} from '../../components';
+import {ProjectsSvg} from '../../svgs';
 import './ProjectsButton.scss';
 
 const ProjectsButton = () => {
   return (
 
-    // <div className='project_button_outer_container'>
-
-    
         <div className='project_button_container'>
           <div className='profile_button_container--Picture' >
             <ProjectsSvg/>
@@ -26,7 +23,6 @@ const ProjectsButton = () => {
           </div>
           
           </div>
-      // </div>
   )
 }
 
