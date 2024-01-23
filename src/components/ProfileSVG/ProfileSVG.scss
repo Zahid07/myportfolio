@@ -3,7 +3,6 @@
     height: inherit;
     display: flex;
     position: relative;
-    // border: 2px red solid;
   }
 
 
@@ -12,4 +11,81 @@
     left: 0;
     bottom: 0;
     margin-left: 80px;
+
+    img[alt="unSelectedFloor"] {
+      display: none;
+  }
+}
+
+.screen_SVG{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  margin-left: 117px;
+  margin-bottom: 45px;
+
+  img[alt="selectedScreen"]{
+    display: none;
+  }
+}
+
+.envelope_SVG{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  margin-left: 150px;
+  margin-bottom: 37px;
+}
+
+
+.mobile_screen_SVG{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  margin-left: 215px;
+  margin-bottom: 30px;
+
+  img[alt="selectedMobileScreen"]{
+    display: none;
+  }
+
+}
+
+.shadows_SVG{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  margin-left: 130px;
+  margin-bottom: 30px;
+}
+
+.key_SVG{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  margin-left: 286px;
+  margin-bottom: 59px;
+
+  img[alt="selectedKey"]{
+    display: none;
+  }
+}
+
+
+.plants_SVG{
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  bottom: 0;
+  margin-left: 87px;
+  margin-bottom: 54px;
+  
+  img[alt="selectedPlants"]{
+    display: none;
+  }
 }

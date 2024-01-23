@@ -9,7 +9,7 @@ const ProjectsButton = () => {
 
     
         <div className='project_button_container'>
-          <div className='project_button_container--Picture' >
+          <div className='profile_button_container--Picture' >
             <ProjectsSvg/>
           </div>
 

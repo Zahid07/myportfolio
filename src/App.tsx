@@ -1,14 +1,15 @@
 import './App.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { About, Contact, Home } from './pages';
+import { useEffect } from 'react';
 
 
 
 function App() {
- 
+
 
   return (
-    <div className='App' >
+    <div  >
       <Router>
         <Routes>
           <Route path='/about' element={<About />} />
